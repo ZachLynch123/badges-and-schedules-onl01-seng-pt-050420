@@ -16,3 +16,5 @@ def assign_rooms(array)
     
   end
 end
+
+batch_badge_crator(speakers)
