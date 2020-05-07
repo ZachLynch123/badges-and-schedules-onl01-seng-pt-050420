@@ -4,8 +4,9 @@ def badge_maker(name)
   return puts "Hello, my name is #{name}."
 
 def batch_badge_crator(array)
+  list_of_names = []
   array.each do |name|
-    badge_maker(name)
+    list_of_names.push(badge_maker(name))
   end
 end
 
