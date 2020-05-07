@@ -5,3 +5,7 @@ def batch_badge_crator(array)
     puts "Hello, my name is #{name}."
   end
 end
+
+def assign_rooms(array)
+  array.each_with_index do |name|
+    
