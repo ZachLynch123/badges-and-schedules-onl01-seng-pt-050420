@@ -13,8 +13,10 @@ def batch_badge_crator(array)
 end
 
 def assign_rooms(array)
+  room_number = []
   array.each_with_index do |name|
-    
+    puts "Hello, #{name}! You'll be assigned to room #{name.index}!"
+    room_number.push(name.index)
   end
 end
 
