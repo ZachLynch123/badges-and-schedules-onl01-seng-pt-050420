@@ -2,10 +2,12 @@ speakers = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
 
 def badge_maker(name)
   return puts "Hello, my name is #{name}."
+end
 
 def batch_badge_crator(array)
   list_of_names = []
   array.each do |name|
+    list_of_names.push(badge_maker(name))
   end
 end
 
