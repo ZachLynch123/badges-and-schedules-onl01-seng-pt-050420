@@ -9,14 +9,14 @@ def batch_badge_crator(array)
   array.each do |name|
     list_of_names << badge_maker(name)
   end
-  return puts list_of_names.inspect
+  return list_of_names
 end
 
 def assign_rooms(array)
   room_number = []
   array.each_with_index do |name, index|
-    puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-    room_number.push(index)
+    x = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+    room_number.push(x)
   end
   return room_number
 end
