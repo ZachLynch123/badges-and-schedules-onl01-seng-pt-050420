@@ -7,7 +7,6 @@ def badge_maker(name)
 end
 
 def batch_badge_crator(array)
-  
   array.each do |name|
     list_of_names << badge_maker(name)
   end
