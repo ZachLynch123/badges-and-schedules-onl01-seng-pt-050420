@@ -9,7 +9,7 @@ def batch_badge_crator(array)
   array.each do |name|
     list_of_names << badge_maker(name)
   end
-  return list_of_names.inspect
+  return puts list_of_names.inspect
 end
 
 def assign_rooms(array)
