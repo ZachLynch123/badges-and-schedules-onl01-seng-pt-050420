@@ -21,4 +21,4 @@ def assign_rooms(array)
   return room_number
 end
 
-batch_badge_crator(speakers)
+assign_rooms(speakers)
