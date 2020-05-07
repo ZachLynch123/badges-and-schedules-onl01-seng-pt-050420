@@ -8,8 +8,8 @@ def batch_badge_crator(array)
   list_of_names = []
   array.each do |name|
     list_of_names.push(badge_maker(name))
-    list_of_names.inspect
   end
+  return list_of_names.inspect
 end
 
 def assign_rooms(array)
