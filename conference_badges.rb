@@ -23,7 +23,7 @@ end
 
 def printer(array)
   names = batch_badge_crator(array)
-  roomns = assign_rooms(array)
+  rooms = assign_rooms(array)
   
 end
 
