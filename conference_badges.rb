@@ -21,4 +21,9 @@ def assign_rooms(array)
   return room_number
 end
 
-assign_rooms(speakers)
+def printer(array)
+  batch_badge_crator(array)
+  assign_rooms(array)
+end
+
+printer(speakers)
