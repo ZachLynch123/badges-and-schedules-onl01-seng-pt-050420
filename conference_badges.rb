@@ -18,6 +18,7 @@ def assign_rooms(array)
     puts "Hello, #{name}! You'll be assigned to room #{name.index}!"
     room_number.push(name.index)
   end
+  return room_number
 end
 
 batch_badge_crator(speakers)
