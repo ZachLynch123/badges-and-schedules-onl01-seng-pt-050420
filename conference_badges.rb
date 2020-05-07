@@ -25,7 +25,7 @@ def printer(array)
   names = batch_badge_crator(array)
   rooms = assign_rooms(array)
   names.each do |index|
-    print names
+    print names[index]
   end
 end
 
